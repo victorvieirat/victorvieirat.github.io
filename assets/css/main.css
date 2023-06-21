@@ -2774,8 +2774,32 @@ input[type="radio"]:focus+label:before {
 	.image.main {
 		margin: 2rem 0;
 	}
+	.image.svg {
+		margin: 2rem 0;
+	}
+	.image.svg img {
+		width: 100%;
+		height: 100%;
+		width: auto;
+		height: auto;
+	}
 
 }
+.image.svg {
+	display: block;
+	margin: 4rem 0;
+	width: 100%;
+}
+
+.image.svg:first-child {
+	margin-top: 0;
+}
+
+.image.svg img {
+	width: 100%;
+}
+
+
 
 a.image {
 	overflow: hidden;
