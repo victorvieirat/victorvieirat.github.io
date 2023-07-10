@@ -68,10 +68,11 @@
 
 		<nav id="nav">
 			<ul class="links">
-				<li><a data-lang="en" href=#CV>CV</a></li>
-				<li><a data-lang="pt" href=#CV>Currículo</a></li>
+
 				<li><a data-lang="en" href=#projects>Projects</a></li>
 				<li><a data-lang="pt" href=#projects>Projetos</a></li>
+				<li><a data-lang="en" href=#CV>CV</a></li>
+				<li><a data-lang="pt" href=#CV>Currículo</a></li>
 				<li><a data-lang="en" href=#footer>Get In Touch</a></li>
 				<li><a data-lang="pt" href=#footer>Contato</a></li>
 				<!--<li><a href="generic.html">Generic Page</a></li>
@@ -94,8 +95,8 @@
 
 		<!-- Main -->
 		<div id="main">
-			<!-- Post -->
-			<section class="post">
+			<!-- Featured Post -->
+			<article class="post featured">
 				<div class='main'>
 					<blockquote data-lang="en">As a student pursuing a degree in Information Technology at a federal
 						university,
@@ -119,6 +120,101 @@
 						monitoramento epidemiológico.</blockquote>
 					<section class="post">
 				</div>
+				<header class="major">
+
+					<h1 data-lang="en" id="projects">Projects</h1>
+					<h1 data-lang="pt" id="projects">Projetos</h1>
+
+				</header>
+			</article>
+			<!-- Posts -->
+			<section class="posts">
+				<article>
+					<header>
+						<h2 data-lang="en">Time Series Data Analysis</h2>
+						<h2 data-lang="pt">Análise de Séries Temporais</h2>
+					</header>
+					<a href="#" class="image fit"><img src="images/newplot.png" alt="" /></a>
+
+
+					<p data-lang="en"> This project involved analyzing the sales data of a store. Various concepts were
+						employed,
+						including smoothing techniques, detrending, deseasonalizing using Fourier analysis, and time
+						series clustering. The goal was to gain insights into the store's sales patterns, identify
+						holiday-related trends, and explore different methods for analyzing time series data. Skills:
+						data analysis, time series analysis, smoothing techniques, Fourier analysis, clustering..</p>
+					<p data-lang="pt"> Este projeto envolveu a análise dos dados de vendas de uma loja. Foram utilizados
+						diversos
+						conceitos, incluindo técnicas de suavização, remoção de tendências, dessazonalização usando
+						análise de Fourier e clusterização de séries temporais. O objetivo era obter insights sobre os
+						padrões de vendas da loja, identificar tendências relacionadas a feriados e explorar diferentes
+						métodos de análise de dados de séries temporais. Habilidades: análise de dados, análise de
+						séries temporais, técnicas de suavização, análise de Fourier, clusterização.</p>
+					<ul class="actions">
+						<li><a href="https://www.kaggle.com/code/victorvieirat/eda-store-sales" target="_blank"
+								class="button">Notebook</a></li>
+					</ul>
+				</article>
+				<article>
+					<header>
+						<h2>Bird Audio Classification</h2>
+					</header>
+					<a href="#" class="image fit"><img src="images/espectogram.png" alt="" /></a>
+
+					<p data-lang="en"> This project involves creating a classifier for 264 classes of bird audio using
+						PyTorch. Spectrograms, data augmentation, and deep learning were used.
+					</p>
+					<p data-lang="pt"> Este projeto envolveu a criação de um classificador de 264 classes de áudios de
+						pássaros utilizando PyTorch. Alguns conceitos utilizados foram: espectrogramas, data augmentation e deep learning.
+					</p>
+					<ul class="actions">
+						<li><a href="https://www.kaggle.com/code/victorvieirat/birdclef2023-lenet5" target="_blank"
+								class="button">Notebook</a></li>
+					</ul>
+				</article>
+				<article>
+					<header>
+						<h2>Sklearn Experimenter</h2>
+					</header>
+					<!-- <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a> -->
+
+					<p data-lang="en"> A Python class that allows you to easily run experiments with different datasets,
+						models,
+						splits, and metrics using scikit-learn. It provides a convenient way to organize and automate
+						your machine learning experiments. Skills: Python, object-oriented programming (OOP)</p>
+					<p data-lang="pt"> uma classe em Python que permite que você execute facilmente experimentos com
+						conjuntos de dados, modelos, divisões e métricas diferentes usando o scikit-learn. Ele fornece
+						uma maneira conveniente de organizar e automatizar seus experimentos de aprendizado de máquina.
+						Habilidades: Python, programação orientada a objetos (POO).</p>
+					<ul class="actions">
+						<li><a href="https://github.com/victorvieirat/sklearn-experimenter" target="_blank"
+								class="button">Code</a></li>
+					</ul>
+				</article>
+
+
+			</section>
+
+			<!-- Footer 
+					<footer>
+						<div class="pagination">
+							<a href="#" class="page active">1</a>
+							<a href="#" class="page">2</a>
+							<a href="#" class="page">3</a>
+							<span class="extra">&hellip;</span>
+							<a href="#" class="page">8</a>
+							<a href="#" class="page">9</a>
+							<a href="#" class="page">10</a>
+							<a href="#" class="next">Next</a>
+						</div>
+					</footer>
+				-->
+		</div>
+
+		<!-- Main -->
+		<div id="main">
+			<!-- Post -->
+			<section class="post">
 				<header class="major">
 					<h1 data-lang="en" id="CV">CV</h1>
 					<h1 data-lang="pt" id="CV">Currículo</h1>
@@ -237,108 +333,11 @@
 				</ul>
 
 		</div>
-
-		<!-- Main -->
-		<div id="main">
-			<!-- Featured Post -->
-			<article class="post featured">
-				<header class="major">
-					<h1 data-lang="en" id="projects">Projects</h1>
-					<h1 data-lang="pt" id="projects">Projetos</h1>
-				</header>
-			</article>
-			<!-- Posts -->
-			<section class="posts">
-				<article>
-					<header>
-						<h2 data-lang="en">Time Series Data Analysis</h2>
-						<h2 data-lang="pt">Análise de Séries Temporais</h2>
-					</header>
-					<a href="#" class="image fit"><img src="images/newplot.png" alt="" /></a>
-
-
-					<p data-lang="en"> This project involved analyzing the sales data of a store. Various concepts were
-						employed,
-						including smoothing techniques, detrending, deseasonalizing using Fourier analysis, and time
-						series clustering. The goal was to gain insights into the store's sales patterns, identify
-						holiday-related trends, and explore different methods for analyzing time series data. Skills:
-						data analysis, time series analysis, smoothing techniques, Fourier analysis, clustering..</p>
-					<p data-lang="pt"> Este projeto envolveu a análise dos dados de vendas de uma loja. Foram utilizados
-						diversos
-						conceitos, incluindo técnicas de suavização, remoção de tendências, dessazonalização usando
-						análise de Fourier e clusterização de séries temporais. O objetivo era obter insights sobre os
-						padrões de vendas da loja, identificar tendências relacionadas a feriados e explorar diferentes
-						métodos de análise de dados de séries temporais. Habilidades: análise de dados, análise de
-						séries temporais, técnicas de suavização, análise de Fourier, clusterização.</p>
-					<ul class="actions">
-						<li><a href="https://www.kaggle.com/code/victorvieirat/eda-store-sales" target="_blank"
-								class="button">Notebook</a></li>
-					</ul>
-				</article>
-				<article>
-					<header>
-						<h2>Bird Audio Classification</h2>
-					</header>
-					<a href="#" class="image fit"><img src="images/espectogram.png" alt="" /></a>
-
-					<p data-lang="en"> This project involves creating a classifier for 264 classes of bird audio using
-						PyTorch. Spectrograms, data augmentation, and deep learning will be utilized.
-					</p>
-					<p data-lang="pt"> Este projeto envolve a criação de um classificador de 264 classes de áudios de
-						pássaros utilizando PyTorch. Serão utilizados espectrogramas, data augmentation e deep learning.
-					</p>
-					<ul class="actions">
-						<li><a href="https://www.kaggle.com/code/victorvieirat/birdclef2023-lenet5" target="_blank"
-								class="button">Notebook</a></li>
-					</ul>
-				</article>
-				<article>
-					<header>
-						<h2>Sklearn Experimenter</h2>
-					</header>
-					<!-- <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a> -->
-
-					<p data-lang="en"> A Python class that allows you to easily run experiments with different datasets,
-						models,
-						splits, and metrics using scikit-learn. It provides a convenient way to organize and automate
-						your machine learning experiments. Skills: Python, object-oriented programming (OOP)</p>
-					<p data-lang="pt"> uma classe em Python que permite que você execute facilmente experimentos com
-						conjuntos de dados, modelos, divisões e métricas diferentes usando o scikit-learn. Ele fornece
-						uma maneira conveniente de organizar e automatizar seus experimentos de aprendizado de máquina.
-						Habilidades: Python, programação orientada a objetos (POO).</p>
-					<ul class="actions">
-						<li><a href="https://github.com/victorvieirat/sklearn-experimenter" target="_blank"
-								class="button">Code</a></li>
-					</ul>
-				</article>
-
-
-			</section>
-
-			<!-- Footer 
-					<footer>
-						<div class="pagination">
-							<a href="#" class="page active">1</a>
-							<a href="#" class="page">2</a>
-							<a href="#" class="page">3</a>
-							<span class="extra">&hellip;</span>
-							<a href="#" class="page">8</a>
-							<a href="#" class="page">9</a>
-							<a href="#" class="page">10</a>
-							<a href="#" class="next">Next</a>
-						</div>
-					</footer>
-				-->
-		</div>
-
 		<!-- Footer -->
 		<footer id="footer">
 			<section>
 				<h3>Email</h3>
 				<p><a>victorvieira.rn@gmail.com</a></p>
-			</section>
-			<section>
-
 				<h3>Social</h3>
 				<ul class="icons alt">
 					<li><a href="https://github.com/victorvieirat" class="icon brands fa-github"><span
@@ -351,6 +350,13 @@
 								class="label">Twitter</span></a></li>
 				</ul>
 			</section>
+			<section>
+				<div class="iframe-container">
+					<iframe
+						src="https://docs.google.com/forms/d/e/1FAIpQLScYfJLIYJpGc4kwAj6PMCcwt7Igx_Ii3cYwj5ggz0YHB0A90w/viewform?embedded=true"
+						width="600" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+				</div>
+			</section>
 		</footer>
 
 		<!-- Copyright -->
@@ -359,6 +365,7 @@
 				<li>&copy; Victor</li>
 				<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
 			</ul>
+
 		</div>
 
 	</div>
