@@ -6,17 +6,18 @@
 -->
 <html>
 <style>
-	[data-lang="en"] {
+	[data-lang="pt"] {
 		display: block;
 	}
 
-	[data-lang="pt"] {
+	[data-lang="en"] {
 		display: none;
 	}
 </style>
 
 <head>
 	<title>Victor Vieira</title>
+
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -27,7 +28,7 @@
 	</noscript>
 </head>
 
-<body class="is-preload" onload="changeLanguage('en');">
+<body class="is-preload" onload="changeLanguage('pt');">
 
 	<!-- Wrapper -->
 	<div id="wrapper" class="fade-in">
@@ -35,10 +36,6 @@
 		<!-- Intro -->
 		<div id="intro">
 			<h1>Victor Vieira</h1>
-			<p data-lang="pt"> Com a ciência dos dados e a arte da narrativa, transformo complexidade em compreensão.
-			</p>
-			<p data-lang="en"> By combining the power of data science and the art of storytelling, I transform
-				complexity into comprehension.</p>
 			<table class="alt1">
 				<tr>
 					<td><img class="image svg" src="images/svg/python-logo-only.svg" alt="Logo" style="height:50px;">
@@ -77,7 +74,7 @@
 				<li><a data-lang="pt" href=#footer>Contato</a></li>
 				<!--<li><a href="generic.html">Generic Page</a></li>
 				<li><a href="elements.html">Elements Reference</a></li>-->
-				<li><a id="myButton"><span class="flag-br-icon"><i class="fas fa-language"></i> PT-BR </a>
+				<li><a id="myButton"><span class="flag-br-icon"><i class="fas fa-language"></i> EN-USA </a>
 				</li>
 			</ul>
 			<ul class="icons">
@@ -98,44 +95,29 @@
 			<!-- Featured Post -->
 			<article class="post featured">
 				<div class='main'>
-					<blockquote data-lang="en">As a student pursuing a degree in Information Technology at a federal
-						university,
-						I have gained valuable knowledge and skills through my coursework. In addition, I have had
-						the
-						opportunity to work on university projects where I have expanded my skills beyond the scope
-						of
-						the subjects. Currently, I am working as a Data Science trainee at the State Health
-						Secretary,
-						where I apply data science techniques to contribute to epidemiological monitoring efforts.
+					<blockquote data-lang="en">AI am a university student at the Federal University of Rio Grande do
+						Norte, majoring in Information Technology. My main experience lies in Data Science and
+						Artificial Intelligence, with strong skills in data analysis, visualization, and machine
+						learning in Python. I have worked as a scholarship recipient on AI projects spanning areas from
+						epidemiology to electrical energy, and I also have academic publications in this field.
 					</blockquote>
 					<blockquote data-lang="pt">
-						Como estudante de Tecnologia da Informação na Universidade Federal do Rio Grande do Norte,
-						adquiri conhecimentos e
-						habilidades valiosas por meio das disciplinas do curso. Além disso, tive a oportunidade de
-						trabalhar em projetos da universidade onde pude expandir minhas habilidades além do escopo
-						das
-						disciplinas. Atualmente, estou atuando como bolsista de Ciência de Dados na Secretaria de
-						Saúde
-						do Estado, onde uso ciência de dados para contribuir com os esforços de
-						monitoramento epidemiológico.</blockquote>
+						Sou estudante universitário na Universidade Federal do Rio Grande do Norte, cursando Tecnologia
+						da Informação.
+						Minha principal experiência está em Ciência de Dados e Inteligência Artificial, com habilidades
+						sólidas em análise de
+						dados, visualização e aprendizado de máquina em Python. Atuei como bolsista em projetos de IA
+						que abrangeram
+						áreas desde epidemiologia até energia elétrica, e também tenho publicações acadêmicas nesse
+						campo.</blockquote>
 					<section class="post">
 				</div>
 				<header class="major">
+					<h2 data-lang="en" id="projects">Time Series Data Analysis</h2>
+					<h2 data-lang="pt" id="projects">Análise de Séries Temporais</h2>
 
-					<h1 data-lang="en" id="projects">Projects</h1>
-					<h1 data-lang="pt" id="projects">Projetos</h1>
-
-				</header>
-			</article>
-			<!-- Posts -->
-			<section class="posts">
-				<article>
-					<header>
-						<h2 data-lang="en">Time Series Data Analysis</h2>
-						<h2 data-lang="pt">Análise de Séries Temporais</h2>
-					</header>
-					<a href="#" class="image fit"><img src="images/newplot.png" alt="" /></a>
-
+					<a href="https://www.kaggle.com/code/victorvieirat/eda-store-sales" class="image fit"><img
+							src="images/newplot.png" alt="" /></a>
 
 					<p data-lang="en"> This project involved analyzing the sales data of a store. Various concepts were
 						employed,
@@ -154,18 +136,26 @@
 						<li><a href="https://www.kaggle.com/code/victorvieirat/eda-store-sales" target="_blank"
 								class="button">Notebook</a></li>
 					</ul>
-				</article>
+
+
+				</header>
+			</article>
+			<!-- Posts -->
+
+			<section class="posts">
 				<article>
 					<header>
 						<h2>Bird Audio Classification</h2>
 					</header>
-					<a href="#" class="image fit"><img src="images/espectogram.png" alt="" /></a>
+					<a href="https://www.kaggle.com/code/victorvieirat/birdclef2023-lenet5" class="image fit"><img
+							src="images/espectogram.png" alt="" /></a>
 
 					<p data-lang="en"> This project involves creating a classifier for 264 classes of bird audio using
 						PyTorch. Spectrograms, data augmentation, and deep learning were used.
 					</p>
 					<p data-lang="pt"> Este projeto envolveu a criação de um classificador de 264 classes de áudios de
-						pássaros utilizando PyTorch. Alguns conceitos utilizados foram: espectrogramas, data augmentation e deep learning.
+						pássaros utilizando PyTorch. Alguns conceitos utilizados foram: espectrogramas, data
+						augmentation e deep learning.
 					</p>
 					<ul class="actions">
 						<li><a href="https://www.kaggle.com/code/victorvieirat/birdclef2023-lenet5" target="_blank"
@@ -259,11 +249,11 @@
 							<li>
 								<h5 data-lang="en">Data Scientist, internship </h5>
 								<h5 data-lang="pt">Cientista de dados bolsista na SESAP</h5>
-								<p data-lang="en">(Mar/2023- Present) <br>
+								<p data-lang="en">(Mar/2023 - Sept/2023) <br>
 									Epidemiological monitoring project for the state health department, where I worked
 									with visualization, time series nowcasting and forecasting.
 								</p>
-								<p data-lang="pt">(Mar/2023- Presente) <br>
+								<p data-lang="pt">(Mar/2023- Set/2023) <br>
 									Projeto de monitoramento epidemilógico da secretária de saúde do estado, aqui
 									trabalhei com nowcasting, previsão de séries temporais e visualizações.
 								</p>
@@ -338,6 +328,9 @@
 			<section>
 				<h3>Email</h3>
 				<p><a>victorvieira.rn@gmail.com</a></p>
+			</section>
+			<section>
+
 				<h3>Social</h3>
 				<ul class="icons alt">
 					<li><a href="https://github.com/victorvieirat" class="icon brands fa-github"><span
@@ -349,13 +342,6 @@
 					<li><a href="https://www.kaggle.com/victorvieirat" class="icon brands fa-kaggle"><span
 								class="label">Twitter</span></a></li>
 				</ul>
-			</section>
-			<section>
-				<div class="iframe-container">
-					<iframe
-						src="https://docs.google.com/forms/d/e/1FAIpQLScYfJLIYJpGc4kwAj6PMCcwt7Igx_Ii3cYwj5ggz0YHB0A90w/viewform?embedded=true"
-						width="600" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-				</div>
 			</section>
 		</footer>
 
